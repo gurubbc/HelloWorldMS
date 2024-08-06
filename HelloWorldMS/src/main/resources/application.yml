@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: HelloWorldMS
+
+#TOMCAT PORT no
+server:
+  port: 4569
+
+#Eureka server details
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:4567/eureka/
